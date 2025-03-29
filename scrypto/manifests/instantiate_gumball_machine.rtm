@@ -1,0 +1,11 @@
+CALL_FUNCTION
+    Address("package_tdx_2_1pk36sws0rakef3gu98fz3klkkc69jmkxuu7k6lr3wgtjp02a3r4fn8")
+    "GumballMachine"
+    "instantiate_gumball_machine"
+    Decimal("1")
+;
+CALL_METHOD
+    Address("account_tdx_2_12xr98zktl7a9kgwz2eej7ujhgkmjmdxty25ftq38557h0c52c76059")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
